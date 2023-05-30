@@ -1,3 +1,4 @@
+import PageChange from "/components/PageChange/PageChange.js";
 /*!
 
 =========================================================
@@ -15,14 +16,13 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
-import ReactDOM from "react-dom";
 import App from "next/app";
 import Head from "next/head";
 import Router from "next/router";
+import React from "react";
+import ReactDOM from "react-dom";
 
-import PageChange from "/components/PageChange/PageChange.js";
-
+import '../styles/css/manutencao.css';
 import "/styles/scss/nextjs-material-kit.scss?v=1.2.0";
 
 Router.events.on("routeChangeStart", (url) => {
