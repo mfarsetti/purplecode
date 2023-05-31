@@ -22,7 +22,7 @@ import Router from "next/router";
 import React from "react";
 import ReactDOM from "react-dom";
 
-import '../styles/css/manutencao.css';
+import '../styles/css/global.css';
 import "/styles/scss/nextjs-material-kit.scss?v=1.2.0";
 
 Router.events.on("routeChangeStart", (url) => {
