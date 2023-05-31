@@ -73,3 +73,21 @@
   font-weight: bold;
   justify-content: center;
 }
+
+
+@media(max-width: 800px){
+  .info {
+    width: 70%;
+    margin: auto;
+  }
+  .info span {
+    font-size: 55px;
+  }
+  .info p, .info strong {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .imageMaint{
+    display: none;
+  }
+}
